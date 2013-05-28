@@ -6,15 +6,15 @@
 		<div class="fleft clearfix">
 			<div id="slider">
 			<?for($i=0; $i<=2; $i++):?>
-				<div class="imgFrame">
+				<div class="imgFrame <?=($i == 0) ? 'active' : ''?>">
 					<?if($this->displayImage($i) != NULL)?>
 					<?=$this->displayImage($i)?>
 				</div>
 			<?endfor;?>
 			</div>
 		</div>
-		<span id="next"></span>
-		<span id="prev"></span>
+		<span class="sliderNavigation" id="next"></span>
+		<span class="sliderNavigation" id="prev"></span>
 	</div>
 	
 	<div class="bottomLinkWrapper clearfix">
