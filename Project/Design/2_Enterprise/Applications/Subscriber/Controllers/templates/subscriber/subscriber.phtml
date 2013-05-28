@@ -1,0 +1,41 @@
+<?
+$subscribers = $this->getSubscriber();
+?>
+
+
+<div class="deleteSubscriber popupDialog popUp_delete">
+	<span class="deleteText fc_starfish_gray8 fwB">Are you sure you want to <span class="fc_starfish_red">DELETE</span> this Subcriber?</span>
+		<input class="sprite2" type="submit" value="Yes"/>
+		<span class="closeDialog sprite2">Cancel</span>
+</div>
+
+
+<?php if($this->getSubscriber() == null):?>
+	<div class="fwB fc_starfish_gray3 pointer" id="noImage">No Subscriber to display.</div>
+	<?php else:?>
+
+	<div id="applicationContent" class="clearfix pAl pLs fleft">
+		<table id="jobs">
+			<thead>
+				<tr>
+					<th></th>
+					<th>E mail</th>
+				</tr>
+			</thead>
+			<tbody>
+			<?php foreach($subscribers as $subscriber):?>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="subscriber_id[]" value="<?=$subscriber->getSubscriberID()?>" /></td>
+					<td><?=$subscriber->getEmail()?></td>
+				</tr>
+			<?php endforeach?>
+			</tbody>
+		</table>
+		
+		<div class="clearfix mTm">
+			<span class="sprite2 fright" id="delete_subscriber">Delete</span>
+		</div>
+	</div>
+<?php endif?>
+

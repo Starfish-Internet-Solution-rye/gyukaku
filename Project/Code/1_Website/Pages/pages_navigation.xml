@@ -1,0 +1,69 @@
+<!-- ******************************		NOTES    ***************************** -->
+<!-- Navigational links are grouped together into how they will be grouped together on the page							--> 
+<!-- Primary Navigation are the most important links of the website 													-->
+<!-- if you dont want the home page link on the primary navigation because its the logo then put it in the SXXDD 		-->
+
+<!-- *******************************	OPTIONS   ****************************************************-->
+<!-- default ="true display default page for website-->
+<!-- language ="en" -->
+<!-- frontend ="hide" if set to page - folder is not required in Design-->
+<!-- cms ="hide" hide page from CMS side navigation-->
+<!-- xml ="default" display default xml page for CMS-->
+<!-- **************************************************************************************************-->
+<pages>
+	<!-- ******************************		Primary Navigation    ************************************ -->
+	<navigation_group>
+		<navigation_group_id>primary</navigation_group_id>
+		<page default="true"  language="en" xml ="default">
+				<page_id>home</page_id>
+				<url_name>home</url_name>
+				<link_title>Home</link_title>
+				<link_text>Home</link_text>
+		</page>
+		<!-- ***************************************************************************************** -->
+		<page>
+			<page_id>about</page_id>
+			<url_name>about</url_name>
+			<link_title>About</link_title>
+			<link_text>ABOUT</link_text>
+		</page>
+		
+	
+		<page>
+			<page_id>menu</page_id>
+			<url_name>menu</url_name>
+			<link_title>Menu</link_title>
+			<link_text>MENU</link_text>
+		</page>
+		<!-- ***************************************************************************************** -->
+		<page>
+			<page_id>outlets</page_id>
+			<url_name>outlets</url_name>
+			<link_title>Outlets</link_title>
+			<link_text>INTERNATIONAL OUTLETS</link_text>
+		</page>
+		<!-- ***************************************************************************************** -->
+		<page cms="hide">
+			<page_id>contact</page_id>
+			<url_name>contact</url_name>
+			<link_title>Contact Us</link_title>
+			<link_text>CONTACT US</link_text>
+		</page>
+		<!-- ***************************************************************************************** -->
+	</navigation_group>
+	
+	<!-- **********************************		Secondary Navigation    ******************************* -->	
+	<navigation_group>
+		<navigation_group_id>secondary</navigation_group_id>
+		<!-- ***************************************************************************************** -->
+	</navigation_group>
+	
+	<!-- **********************************		Special Navigation    ******************************* -->	
+	<navigation_group>
+		<navigation_group_id>special</navigation_group_id>
+		<!-- ***************************************************************************************** -->
+		
+	</navigation_group>
+	
+</pages>
+<!-- **************************************************************************************************-->

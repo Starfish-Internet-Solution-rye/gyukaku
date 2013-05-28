@@ -1,0 +1,33 @@
+Array
+(
+    [0] => Parameters Array - array(1) {
+  [0]=>
+  string(12) "pages_editor"
+}
+
+    [1] => <span style="color: green">$string - <pre>string(38) "Starfish Internet Solutions - Homepage"
+<pre></span>
+    [2] => <span style="color: green">$string - <pre>string(8) "HOMEPAGE"
+<pre></span>
+    [3] => <span style="color: green">$string - <pre>string(1) "."
+<pre></span>
+    [4] => <span style="color: green">$string - <pre>string(1) "."
+<pre></span>
+    [5] => <span style="color: green">$string - <pre>string(1) "4"
+<pre></span>
+    [6] => <span style="color: green">$string - <pre>string(1) "5"
+<pre></span>
+    [7] => <span style="color: green">$string - <pre>string(1) "6"
+<pre></span>
+    [8] => <span style="color: green">$string - <pre>string(369) "<p><img alt=\"Place caption here.\" src=\"/Data/Images/homepage_album/230x330/gyukaku1.png\" style=\"height:103px; width:313px\" title=\"gyukaku1\" /></p>
+
+<p>One to three liner description abut Gyukaku. Clicking this box will lead to the About us page. One to three liner description abut Gyukaku. Clicking this box will lead to the About us page.&Acirc;&nbsp;</p>
+"
+<pre></span>
+    [9] => <span style="color: green">$string - <pre>string(10) "<p>.</p>
+"
+<pre></span>
+    [10] => <span style="color: green">$string - <pre>string(10) "<p>.</p>
+"
+<pre></span>
+)

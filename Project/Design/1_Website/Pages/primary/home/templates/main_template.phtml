@@ -1,0 +1,31 @@
+<div id="<?=routes::getInstance()->getCurrentTopLevelPageID();?>_content_wrapper" class="clearfix">
+	<div class="clearfix posRel">
+		<div id="thrillBanner"class="fleft clearfix">
+			<img src="/Project/Design/1_Website/Pages/primary/home/images/thrill.png">
+		</div>
+		<div class="fleft clearfix">
+			<div id="slider">
+			<?for($i=0; $i<=2; $i++):?>
+				<div class="imgFrame">
+					<?if($this->displayImage($i) != NULL)?>
+					<?=$this->displayImage($i)?>
+				</div>
+			<?endfor;?>
+			</div>
+		</div>
+		<span id="next"></span>
+		<span id="prev"></span>
+	</div>
+	
+	<div class="bottomLinkWrapper clearfix">
+		<div class="bottomLink">
+			<?=$this->displayElement('page_content_editor_1')?>
+		</div>
+		<div class="bottomLink">
+			<?=$this->displayElement('page_content_editor_2')?>
+		</div>
+		<div class="bottomLink last">
+			<?=$this->displayElement('page_content_editor_3')?>
+		</div>
+	</div>
+</div>

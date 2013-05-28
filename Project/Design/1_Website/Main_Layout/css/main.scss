@@ -1,0 +1,30 @@
+/************************************** MAIN **************************************/
+@import 'C:/WORKSPACE2/gyukaku/Project/Design/1_Website/Main_Layout/css/global';
+body {
+}
+#background{
+  position:absolute;
+  left:0;
+  right:0;
+  background-position:center;
+  background-size:cover;
+  z-index:-1;
+  @include background(100%,100%,$bodyBg,$repeat:no-repeat);
+}
+#wrapper {
+  width:1108px;
+  div[id*='content_wrapper']{
+    min-height: 300px;
+  }
+}
+
+#noScript{
+  position:relative;
+  width:988px;
+  margin:0 auto;
+  text-align:center;
+  padding:10px 0;
+  a{
+    color:#0076C0;
+  }
+}

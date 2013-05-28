@@ -1,0 +1,23 @@
+/************************************** FOOTER **************************************/
+@import 'C:/WORKSPACE2/gyukaku/Project/Design/1_Website/Main_Layout/css/global';
+
+#footer {
+  p{
+    color:#fff;
+    font-size:11px;
+    display:inline-block;
+  }
+  a{
+    line-height: 41px;
+    font-size:0px;
+  }
+  #facebook{
+    @include spriteImage(38px,36px,0px,0px);
+  }
+  #twitter{
+    @include spriteImage(38px,36px,-37px,0px);
+  }
+  #instagram{
+    @include spriteImage(38px,36px,-75px,0px);
+  }
+}

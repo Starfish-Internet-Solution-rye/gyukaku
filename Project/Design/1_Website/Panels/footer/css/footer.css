@@ -1,0 +1,28 @@
+/************************************** FOOTER **************************************/
+.sprite, #footer #facebook, #footer #twitter, #footer #instagram {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent; }
+
+#footer p {
+  color: #fff;
+  font-size: 11px;
+  display: inline-block; }
+#footer a {
+  line-height: 41px;
+  font-size: 0px; }
+#footer #facebook {
+  width: 38px;
+  height: 36px;
+  background-position: 0px 0px;
+  background-image: url("/Project/Design/1_Website/Main_Layout/images/sprites.png"); }
+#footer #twitter {
+  width: 38px;
+  height: 36px;
+  background-position: -37px 0px;
+  background-image: url("/Project/Design/1_Website/Main_Layout/images/sprites.png"); }
+#footer #instagram {
+  width: 38px;
+  height: 36px;
+  background-position: -75px 0px;
+  background-image: url("/Project/Design/1_Website/Main_Layout/images/sprites.png"); }
